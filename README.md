@@ -7,10 +7,8 @@ List countries and can save countries to the database. When clicked on any count
 The app has 2 tab, one is "Main" tab that list coutries and the other is "Saved" to show saved countries
 
 
-
-
 ### *App demo*
-<video src="https://user-images.githubusercontent.com/47990723/193879883-b7cad5d4-45b0-4c78-bcd4-31b1f8325810.mp4" controls="controls" style="max-width: 730px;"> </video>
+<video src="https://user-images.githubusercontent.com/47990723/193888365-b0ee761e-e6e8-41f8-a760-9adee5250c2c.mp4" controls="controls" style="max-width: 730px;"> </video>
 
 ### *Demo Highlights*
 • Detail view properly handles the situation where the some details are not provided by the API. <br /><br />
