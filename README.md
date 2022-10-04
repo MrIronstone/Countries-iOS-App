@@ -22,7 +22,6 @@ The app has 2 tab, one is "Main" tab that list coutries and the other is "Saved"
 • Swift itself is unable to load SVG images to IUImage so I had to use external library such as SVGKit  <br /><br />
 • Uses Swift's Result type <br /><br />
 • Every view has been created ***programmatically*** <br /><br />
-• • Every view has been created ***programmatically*** <br /><br />
 • Each page loads 10 countries, thanks to the "limit 10" parameter in the network layer. 
 When it comes to the bottom of the page, it automatically pulls the other page from the internet and merges it with the previous one. 
 This way, both the pages contain little data and the next page can be loaded quickly and I get a fluent experience on UI. <br /><br /> <br /><br />
