@@ -51,6 +51,10 @@ class CountryCollectionViewCell: UICollectionViewCell {
         NotificationCenter.default.addObserver(forName: NSNotification.Name("removed"), object: nil, queue: nil) { _ in
             self.checkOnDatabaseAndSetButton()
         }
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name("saved"), object: nil, queue: nil) { _ in
+            self.checkOnDatabaseAndSetButton()
+        }
     }
     
     // MARK: This method will be used to configure each sell, that's why I made it public
